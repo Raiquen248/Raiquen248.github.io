@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 
 body {
-  background: #fff;
+  background: #686868;
   color: #444;
   font-family: "Open Sans", sans-serif;
 }
@@ -130,7 +130,7 @@ Barra Menú
   z-index: 997;
   transition: all 0.5s;
   padding: 20px 0;
-  background: #fff;
+  background: #f2bbd9;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
 
@@ -774,7 +774,7 @@ margin-top:20px;
 margin-bottom:20px;
 color: white;
 border: solid white 2px;
-background-color: #ff009a;
+background-color: #535353;
 width:24%;
 height: 11%;
 text-transform: uppercase;
@@ -786,7 +786,7 @@ letter-spacing: 1.5px;
 .boton1:hover {
 margin-top:20px;
 margin-bottom:20px;
-color: #ff009a;
+color: #535353;
 border: solid white 2px;
 background-color: white;
 width:24%;
@@ -797,7 +797,7 @@ font-weight: bold;
 }
 
 #equipo {
-  background:#ff009a;
+  background:#f2cda0;
   padding: 60px 0;
 
 }
@@ -807,7 +807,7 @@ font-weight: bold;
 }
 
 #equipo .equipo-container .content {
-  background: #ff009a;
+  background: #f2cda0;
 }
 
 #equipo .equipo-container .title2 {
@@ -825,14 +825,14 @@ font-weight: bold;
 }
 
 #equipo .equipo-container .icon2-box {
-  background: #ff009a;
+  background: #f2cda0;
   background-size: cover;
   padding: 0 0 30px 0;
 }
 
 #equipo .equipo-container .icon2-box .icon2 {
   float: left;
-  background: #ff009a;
+  background: #f2cda0;
   width: 64px;
   height: 64px;
   display: -webkit-box;
@@ -859,7 +859,7 @@ font-weight: bold;
 }
 
 #equipo .equipo-container .icon2-box .icon2 i {
-  color:white;
+  color:#000000;
   font-size: 31px;
 }
 
@@ -872,7 +872,7 @@ font-weight: bold;
 }
 
 #equipo .equipo-container .icon2-box .title2 a {
-  color:white;
+  color:rgb(61, 61, 61);
 }
 
 #equipo .equipo-container .icon2-box .description2 {
@@ -891,7 +891,7 @@ font-weight: bold;
 }
 
 .description2 {
-color: white;
+color: rgb(61, 61, 61);
 }
 /* Termina Equipo!
 --------------------------------*/
@@ -2001,14 +2001,14 @@ margin-top: 0px;
 --------------------------------------------------------------*/
 
 #footer {
-  background: #ff009a;
+  background: #f2b6c1;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #ff009a;
+  background: #f2b6c1;
   padding: 60px 0 30px 0;
 }
 
@@ -2039,7 +2039,7 @@ margin-top: 0px;
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #ff009a;
+  background: #f2b6c1;
   color: white;
   line-height: 1;
   padding: 8px 0;
@@ -2108,7 +2108,7 @@ margin-top: 0px;
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #ff009a;
+  background: #f2b6c1;
   border: solid white 1.5px;
   width: 50%; 
   text-align: center;
@@ -2126,7 +2126,7 @@ margin-top: 0px;
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  color: #ff009a;
+  color: #f2b6c1;
   background: #fff;
 }
 
@@ -2158,7 +2158,7 @@ margin-top: 0px;
 }
 
 .d-block{
-    color: #ff009a;
+    color: #f2b6c1;
     font-weight: bold;
 }
 
@@ -2168,7 +2168,7 @@ margin-top: 0px;
 }
 
 .btn-link:hover{
-    color: #ff009a;
+    color: #f2b6c1;
   
 }
 
