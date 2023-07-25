@@ -1,9 +1,4 @@
-/*
-  Theme Name: NewBiz
-  Theme URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
@@ -158,8 +153,8 @@ Barra Menú
 
 #header .logo img {
   padding: 0;
-  margin: 7px 0;
-  max-height: 26px;
+  margin: 3px 0;
+  max-height: 42px;
 }
 
 .main-pages {
@@ -1071,7 +1066,7 @@ font-size: 13px;
 /* Empieza Clientes
 --------------------------------*/
 .fuccia {
-background-color:#ff009a;
+background-color:#1c1c1c;
 width: 100%;
 height: auto;
 margin-bottom:0px;
@@ -1463,7 +1458,7 @@ h5{
    
    margin-top: 20px;
    color: white;
-   background-color:#ff009a;
+   background-color:#141414;
    font-family: Montserrat;
    font-size: 35px;
    font-weight: bold;
@@ -1912,12 +1907,12 @@ margin-top: 0px;
 }
 
 #contact .info {
-  color: #283d50;
+  color: #ffffff;
 }
 
 #contact .info i {
   font-size: 32px;
-  color: #007bff;
+  color: #000000;
   float: left;
   line-height: 1;
 }
@@ -1974,10 +1969,10 @@ margin-top: 0px;
 --------------------------------*/
 #contact .form button[type="submit"] {
   background: white;
-  border: 2.5px solid #ff009a;
+  border: 2.5px solid  #000000;
   text-transform:uppercase;
   padding: 11px 32px;
-  color: #ff009a;
+  color: #000000;
   transition: 0.3s;
   font-size: 85%;
   letter-spacing: 1.5px;
@@ -1986,7 +1981,7 @@ margin-top: 0px;
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #ff009a;
+  background: #272727;
   cursor: pointer;
   color: white;
 }
@@ -2003,7 +1998,7 @@ margin-top: 0px;
 #footer {
   background: #f2b6c1;
   padding: 0 0 30px 0;
-  color: #eee;
+  color: #000000;
   font-size: 14px;
 }
 
@@ -2022,7 +2017,7 @@ margin-top: 0px;
   padding: 2px 0 2px 0;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
-  color: #fff;
+  color: #000000;
   font-weight: bold;
   padding-bottom: 20px;
   text-transform: uppercase;
@@ -2033,14 +2028,14 @@ margin-top: 0px;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
-  color: #ecf5ff;
+  color: #000000;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #f2b6c1;
-  color: white;
+  color: rgb(44, 44, 44);
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -2056,7 +2051,7 @@ margin-top: 0px;
 #footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
-  color: #fff;
+  color: #000000;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 10px;
@@ -2081,7 +2076,7 @@ margin-top: 0px;
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #ecf5ff;
+ color: #000000;
 }
 
 #footer .footer-top .footer-links ul a:hover {
@@ -2112,7 +2107,7 @@ margin-top: 0px;
   border: solid white 1.5px;
   width: 50%; 
   text-align: center;
-  color: #fff;
+  color: #000000;
   transition: 0.3s;
   cursor: pointer;
   
