@@ -1101,162 +1101,12 @@ background: #707070;
 
 /* Equipo.html
 --------------------------------*/
-#portfolio3 .container{
-margin-top: 55px;
-
-}
 
 #portfolio3 {
   padding: 60px 0;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
-#portfolio3 #portfolio3-flters {
-  padding: 0;
-  margin: 5px 0 35px 0;
-  list-style: none;
-  text-align: center;
-}
-
-#portfolio3 #portfolio3-flters li {
-  cursor: pointer;
-  margin: 15px 15px 15px 0;
-  display: inline-block;
-  padding: 6px 20px;
-  font-size: 12px;
-  line-height: 20px;
-  color: #007bff;
-  border-radius: 50px;
-  text-transform: uppercase;
-  background: #ecf5ff;
-  margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
-}
-
-#portfolio3 #portfolio3-flters li:hover,
-#portfolio3 #portfolio3-flters li.filter-active {
-  background: #007bff;
-  color: #fff;
-}
-
-#portfolio3 #portfolio3-flters li:last-child {
-  margin-right: 0;
-}
-
-#portfolio3 .portfolio3-item {
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 30px;
-}
-
-#portfolio3 .portfolio3-item .portfolio3-wrap {
-  overflow: hidden;
-  position: relative;
-  border-radius: 6px;
-  margin: 0;
-
-}
-
-#portfolio3 .portfolio3-item .portfolio3-wrap:hover img {
-  opacity: 0.4;
-  transition: 0.3s;
-}
-
-#portfolio3 .portfolio3-item .portfolio3-wrap .portfolio3-info {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  text-align: center;
-  opacity: 0;
-  transition: 0.2s linear;
-}
-
-#portfolio3 .portfolio3-item .portfolio3-wrap .portfolio3-info h4 {
-  font-size: 22px;
-  line-height: 1px;
-  font-weight: 700;
-  margin-bottom: 14px;
-  padding-bottom: 0;
-}
-
-#portfolio3 .portfolio3-item .portfolio3-wrap .portfolio3-info h4 a {
-  color: #fff;
-}
-
-#portfolio3 .portfolio3-item .portfolio3-wrap .portfolio3-info h4 a:hover {
-  color: #007bff;
-}
-
-#portfolio3 .portfolio3-item .portfolio3-wrap .portfolio3-info p {
-  padding: 0;
-  margin: 0;
-  color: #e2effe;
-  font-weight: 500;
-  font-size: 14px;
-  text-transform: uppercase;
-}
-
-#portfolio3 .portfolio3-item .portfolio3-wrap .portfolio3-info .link-preview,
-#portfolio3 .portfolio3-item .portfolio3-wrap .portfolio3-info .link-details {
-  display: inline-block;
-  line-height: 1;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  background: #007bff;
-  border-radius: 50%;
-  margin: 10px 4px 0 4px;
-}
-
-#portfolio3 .portfolio3-item .portfolio3-wrap .portfolio3-info .link-preview i,
-#portfolio3 .portfolio3-item .portfolio3-wrap .portfolio3-info .link-details i {
-  padding-top: 6px;
-  font-size: 22px;
-  color: #fff;
-}
-
-#portfolio3 .portfolio3-item .portfolio3-wrap .portfolio3-info .link-preview:hover,
-#portfolio3 .portfolio3-item .portfolio3-wrap .portfolio3-info .link-details:hover {
-  background: #3395ff;
-}
-
-#portfolio3 .portfolio3-item .portfolio3-wrap .portfolio3-info .link-preview:hover i,
-#portfolio3 .portfolio3-item .portfolio3-wrap .portfolio3-info .link-details:hover i {
-  color: #fff;
-}
-
-#portfolio3 .portfolio3-item .portfolio3-wrap:hover {
-  background: #003166;
-}
-
-#portfolio3 .portfolio3-item .portfolio3-wrap:hover .portfolio3-info {
-  opacity: 1;
-}
-
-
-.sobre{
-font-size: 80px;
-text-transform: lowercase;
-}
 
 
 #cargo3 {
@@ -1274,6 +1124,24 @@ margin-bottom: 0px;
 margin-top: 0px;
 
 }
+
+.portfolio-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 20px; 
+}
+
+.portfolio3-wrap img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .portfolio-grid-container {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
 /* Termina Equipo.html
 --------------------------------*/
 
