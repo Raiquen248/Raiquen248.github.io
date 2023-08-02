@@ -4,7 +4,13 @@
 4)Acomodar las fotos juntas en una carpeta, el index y las otras capretas aparte. 
 5)Achicar el peso de las imágenes. 
 6)Poner la descripción alt en las fotografías.
-7)Keywords en el meta. 
+7)Keywords en el meta. IMPORTANTE
 8)Cambio de nombre de las etiquetas del código del index.
 9)Crear la página 404.
 10)Nombre y estructura Url.
+
+
+
+title
+ META descripcion 
+META keyword si o si 
