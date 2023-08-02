@@ -1,0 +1,477 @@
+#novedades {
+  padding: 60px 0;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+
+  #novedades-flters {
+    padding: 0;
+    margin: 5px 0 35px 0;
+    list-style: none;
+    text-align: center;
+
+    li {
+      cursor: pointer;
+      margin: 15px 15px 15px 0;
+      display: inline-block;
+      padding: 6px 20px;
+      font-size: 12px;
+      line-height: 20px;
+      color: #007bff;
+      border-radius: 50px;
+      text-transform: uppercase;
+      background: #ecf5ff;
+      margin-bottom: 5px;
+      transition: all 0.3s ease-in-out;
+
+      &:hover,
+      &.filter-active {
+        background: #007bff;
+        color: #fff;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .novedades-item {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+
+    .novedades-wrap {
+      overflow: hidden;
+      position: relative;
+      border-radius: 6px;
+      margin: 0;
+
+      &:hover img {
+        opacity: 0.4;
+        transition: 0.3s;
+      }
+
+      .novedades-info {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        opacity: 0;
+        transition: 0.2s linear;
+
+        h4 {
+          font-size: 22px;
+          line-height: 1;
+          font-weight: 700;
+          margin-bottom: 14px;
+
+          a {
+            color: #fff;
+
+            &:hover {
+              color: #007bff;
+            }
+          }
+        }
+
+        p {
+          padding: 0;
+          margin: 0;
+          color: #e2effe;
+          font-weight: 500;
+          font-size: 14px;
+          text-transform: uppercase;
+        }
+
+        .link-preview,
+        .link-details {
+          display: inline-block;
+          line-height: 1;
+          text-align: center;
+          width: 36px;
+          height: 36px;
+          background: #007bff;
+          border-radius: 50%;
+          margin: 10px 4px 0 4px;
+
+          i {
+            padding-top: 6px;
+            font-size: 22px;
+            color: #fff;
+          }
+
+          &:hover {
+            background: #3395ff;
+
+            i {
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+
+    &:hover {
+      background: #616161;
+
+      .novedades-info {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.sobre2 {
+  font-size: 80px;
+  text-transform: lowercase;
+}
+
+.titulares2 {
+  color: black;
+  font-size: 16px;
+  margin-bottom: 2px;
+  margin-top: 8px;
+}
+
+.parrafo2 {
+  color: black;
+  font-size: 13px;
+}
+
+/* General Styles for h5 */
+
+h5 {
+  margin-top: 20px;
+  color: white;
+  background-color: #141414;
+  font-family: Montserrat;
+  font-size: 35px;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  width: 100%;
+}
+
+/* Styles for Portfolio.html */
+#portfolio4 {
+  padding: 60px 0;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+
+  .container {
+    margin-top: 55px;
+  }
+
+  #portfolio4-flters {
+    padding: 0;
+    margin: 5px 0 35px 0;
+    list-style: none;
+    text-align: center;
+
+    li {
+      cursor: pointer;
+      margin: 15px 15px 15px 0;
+      display: inline-block;
+      padding: 6px 20px;
+      font-size: 12px;
+      line-height: 20px;
+      color: #007bff;
+      border-radius: 50px;
+      text-transform: uppercase;
+      background: #ecf5ff;
+      margin-bottom: 5px;
+      transition: all 0.3s ease-in-out;
+
+      &:hover,
+      &.filter-active {
+        background: #007bff;
+        color: #fff;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .portfolio4-item {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+
+    .portfolio4-wrap {
+      overflow: hidden;
+      position: relative;
+      border-radius: 6px;
+      margin: 0;
+
+      &:hover img {
+        opacity: 0.4;
+        transition: 0.3s;
+      }
+
+      .portfolio4-info {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        opacity: 0;
+        transition: 0.2s linear;
+
+        h4 {
+          font-size: 22px;
+          line-height: 1px;
+          font-weight: 700;
+          margin-bottom: 14px;
+          padding-bottom: 0;
+
+          a {
+            color: #fff;
+
+            &:hover {
+              color: #007bff;
+            }
+          }
+        }
+
+        p {
+          padding: 0;
+          margin: 0;
+          color: #e2effe;
+          font-weight: 500;
+          font-size: 14px;
+          text-transform: uppercase;
+        }
+
+        .link-preview,
+        .link-details {
+          display: inline-block;
+          line-height: 1;
+          text-align: center;
+          width: 36px;
+          height: 36px;
+          background: #007bff;
+          border-radius: 50%;
+          margin: 10px 4px 0 4px;
+
+          i {
+            padding-top: 6px;
+            font-size: 22px;
+            color: #fff;
+          }
+        }
+
+        .link-preview:hover,
+        .link-details:hover {
+          background: #3395ff;
+          i {
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    &:hover .portfolio3-info {
+      opacity: 1;
+    }
+  }
+}
+
+/* Custom styles */
+.sobre {
+  font-size: 80px;
+  text-transform: lowercase;
+}
+
+.titulares3 {
+  color: black;
+  font-size: 16.5px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.cargo3 {
+  color: black;
+  font-size: 16px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.parrafo3 {
+  color: black;
+  font-size: 13px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+/* Empieza Novedades2.html
+--------------------------------*/
+#isidro {
+  padding: 60px 0;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+
+  .container {
+    margin-top: 55px;
+  }
+
+  #isidro-flters {
+    padding: 0;
+    margin: 5px 0 35px 0;
+    list-style: none;
+    text-align: center;
+
+    li {
+      cursor: pointer;
+      margin: 15px 15px 15px 0;
+      display: inline-block;
+      padding: 6px 20px;
+      font-size: 12px;
+      line-height: 20px;
+      color: #007bff;
+      border-radius: 50px;
+      text-transform: uppercase;
+      background: #ecf5ff;
+      margin-bottom: 5px;
+      transition: all 0.3s ease-in-out;
+
+      &:hover,
+      &.filter-active {
+        background: #007bff;
+        color: #fff;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .isidro-item {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+
+    .isidro-wrap {
+      overflow: hidden;
+      position: relative;
+      border-radius: 6px;
+      margin: 0;
+
+      &:hover img {
+        opacity: 0.4;
+        transition: 0.3s;
+      }
+
+      .isidro-info {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        opacity: 0;
+        transition: 0.2s linear;
+
+        h4 {
+          font-size: 22px;
+          line-height: 1px;
+          font-weight: 700;
+          margin-bottom: 14px;
+          padding-bottom: 0;
+
+          a {
+            color: #fff;
+
+            &:hover {
+              color: #007bff;
+            }
+          }
+        }
+
+        p {
+          padding: 0;
+          margin: 0;
+          color: #e2effe;
+          font-weight: 500;
+          font-size: 14px;
+          text-transform: uppercase;
+        }
+
+        .link-preview,
+        .link-details {
+          display: inline-block;
+          line-height: 1;
+          text-align: center;
+          width: 36px;
+          height: 36px;
+          background: #007bff;
+          border-radius: 50%;
+          margin: 10px 4px 0 4px;
+
+          i {
+            padding-top: 6px;
+            font-size: 22px;
+            color: #fff;
+          }
+        }
+
+        .link-preview:hover,
+        .link-details:hover {
+          background: #3395ff;
+          i {
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    &:hover .isidro-info {
+      opacity: 1;
+    }
+  }
+}
+
+/* Estilos personalizados */
+.sobre {
+  font-size: 80px;
+  text-transform: lowercase;
+}
+
+.titulares3 {
+  color: black;
+  font-size: 16.5px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.cargo3 {
+  color: black;
+  font-size: 16px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.parrafo3 {
+  color: black;
+  font-size: 13px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+/* Termina Novedades2.html
+--------------------------------*/

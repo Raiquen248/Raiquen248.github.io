@@ -1,0 +1,248 @@
+#portfolio {
+    padding: 60px 0;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  
+    #portfolio-flters {
+      padding: 0;
+      margin: 5px 0 35px 0;
+      list-style: none;
+      text-align: center;
+  
+      li {
+        cursor: pointer;
+        margin: 15px 15px 15px 0;
+        display: inline-block;
+        padding: 6px 20px;
+        font-size: 12px;
+        line-height: 20px;
+        color: #007bff;
+        border-radius: 50px;
+        text-transform: uppercase;
+        background: #ecf5ff;
+        margin-bottom: 5px;
+        transition: all 0.3s ease-in-out;
+  
+        &:hover,
+        &.filter-active {
+          background: #007bff;
+          color: #fff;
+        }
+  
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  
+    .portfolio-item {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 30px;
+  
+      .portfolio-wrap {
+        overflow: hidden;
+        position: relative;
+        border-radius: 6px;
+        margin: 0;
+  
+        &:hover img {
+          opacity: 0.4;
+          transition: 0.3s;
+        }
+  
+        .portfolio-info {
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          text-align: center;
+          opacity: 0;
+          transition: 0.2s linear;
+  
+          h4 {
+            font-size: 22px;
+            line-height: 1px;
+            font-weight: 700;
+            margin-bottom: 14px;
+  
+            a {
+              color: #ec0072;
+  
+              &:hover {
+                color: #ec0072;
+              }
+            }
+          }
+  
+          p {
+            padding: 0;
+            margin: 0;
+            color: #e2effe;
+            font-weight: 500;
+            font-size: 14px;
+            text-transform: uppercase;
+          }
+  
+          .link-preview,
+          .link-details {
+            display: inline-block;
+            line-height: 1;
+            text-align: center;
+            width: 36px;
+            height: 36px;
+            background: #007bff;
+            border-radius: 50%;
+            margin: 10px 4px 0 4px;
+  
+            i {
+              padding-top: 6px;
+              font-size: 22px;
+              color: #fff;
+            }
+  
+            &:hover {
+              background: #3395ff;
+  
+              i {
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+  
+      &:hover .portfolio-wrap {
+        background: #4ed6fc;
+  
+        .portfolio-info {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  
+  /* Empieza Portfolio.html
+--------------------------------*/
+#about3 {
+  color: #ff009a;
+  margin-right: 8px;
+  margin-left: 8px;
+  cursor: pointer;
+
+  i {
+    color: #ff009a;
+    margin-right: 8px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+
+  #hola {
+    margin-top: 55px;
+  }
+
+  .container {
+    margin-top: 5px;
+  }
+
+  img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: auto;
+  }
+
+  background: white;
+  padding: 60px 0;
+
+  .about3-container {
+    .background {
+      margin: 20px 0;
+    }
+
+    .content {
+      background: white;
+    }
+
+    .title {
+      color: #333;
+      font-weight: 700;
+      font-size: 32px;
+    }
+
+    p {
+      line-height: 26px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .icon-box {
+      background: white;
+      background-size: cover;
+      padding: 0 0 30px 0;
+
+      .icon {
+        float: left;
+        background: #fff;
+        width: 64px;
+        height: 64px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 50%;
+        border: 2px solid #007bff;
+        transition: all 0.3s ease-in-out;
+
+        i {
+          color: #007bff;
+          font-size: 24px;
+        }
+      }
+
+      &:hover {
+        .icon {
+          background: #007bff;
+          i {
+            color: #fff;
+          }
+        }
+      }
+
+      .title {
+        margin-left: 80px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        font-size: 18px;
+
+        a {
+          color: #333;
+        }
+      }
+
+      .description {
+        margin-left: 80px;
+        line-height: 24px;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .about3-extra {
+    padding-top: 25px;
+
+    h4 {
+      font-weight: 600;
+      font-size: 24px;
+    }
+  }
+}
+
+/* Termina Portfolio.html
+--------------------------------*/

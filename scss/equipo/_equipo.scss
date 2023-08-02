@@ -1,0 +1,143 @@
+.boton1 {
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    border: solid white 2px;
+    background-color: #535353;
+    width: 24%;
+    height: 11%;
+    text-transform: uppercase;
+    font-size: 60%;
+    margin-left: 80px;
+    letter-spacing: 1.5px;
+  
+    &:hover {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      color: #535353;
+      border: solid white 2px;
+      background-color: white;
+      width: 24%;
+      height: 11%;
+      text-transform: uppercase;
+      font-size: 60%;
+      font-weight: bold;
+    }
+  }
+  
+  #equipo {
+    background: #f2cda0;
+    padding: 60px 0;
+  
+    .equipo-container {
+      .background {
+        margin: 20px 0;
+      }
+  
+      .content {
+        background: #f2cda0;
+      }
+  
+      .title2 {
+        color: #333;
+        font-weight: 700;
+        font-size: 32px;
+      }
+  
+      .description2 {
+        line-height: 26px;
+  
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+  
+      .icon2-box {
+        background: #f2cda0;
+        background-size: cover;
+        padding: 0 0 30px 0;
+  
+        .icon2 {
+          float: left;
+          background: #f2cda0;
+          width: 64px;
+          height: 64px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          text-align: center;
+          border-radius: 50%;
+          transition: all 0.3s ease-in-out;
+  
+          i {
+            color: #000000;
+            font-size: 31px;
+          }
+        }
+  
+        .title2 {
+          margin-left: 80px;
+          font-weight: 600;
+          margin-bottom: 5px;
+          font-size: 18px;
+  
+          a {
+            color: rgb(61, 61, 61);
+          }
+        }
+  
+        .description2 {
+          margin-left: 80px;
+          line-height: 24px;
+          font-size: 14px;
+        }
+      }
+    }
+  
+    .equipo-extra {
+      padding-top: 60px;
+  
+      .title2 {
+        font-weight: 600;
+        font-size: 24px;
+      }
+    }
+  
+    .description2 {
+      color: rgb(61, 61, 61);
+    }
+  }
+
+  /* Equipo.html
+--------------------------------*/
+#portfolio3 {
+  padding: 60px 0;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+
+  #cargo3 {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 2px;
+    margin-top: 8px;
+  }
+
+  #parrafo3 {
+    color: black;
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .portfolio-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+
+  .portfolio3-wrap img {
+    max-width: 100%;
+    height: auto;
+  }
+}
