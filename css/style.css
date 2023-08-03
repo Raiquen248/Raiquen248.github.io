@@ -582,31 +582,68 @@ body h6 {
 
 /* Empieza Portfolio.html
 --------------------------------*/
-#about3 {
-  color: #ff009a;
-  margin-right: 8px;
-  margin-left: 8px;
-  cursor: pointer;
-  background: white;
-  padding: 60px 0;
-}
 #about3 i {
   color: #ff009a;
   margin-right: 8px;
   margin-left: 8px;
   cursor: pointer;
 }
+
+h5 {
+  margin-top: 20px;
+  color: white;
+  background-color: #ff009a;
+  font-family: Montserrat;
+  font-size: 35px;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  width: 100%;
+}
+
 #about3 #hola {
   margin-top: 55px;
 }
+
 #about3 .container {
   margin-top: 5px;
 }
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.carousel-inner {
+  margin-top: 0px;
+}
+
+.titulodestacado {
+  font-weight: bold;
+  display: inline;
+}
+
+.titulonormal {
+  display: inline;
+}
+
 #about3 img {
   width: 100%;
   display: block;
   margin: auto;
   padding: auto;
+}
+
+#about3 .container {
+  width: 100%;
+}
+
+#about3 {
+  background: white;
+  padding: 60px 0;
 }
 #about3 .about3-container .background {
   margin: 20px 0;
@@ -614,23 +651,23 @@ body h6 {
 #about3 .about3-container .content {
   background: white;
 }
-#about3 .about3-container .title {
+#about3 .about3-container .content .title {
   color: #333;
   font-weight: 700;
   font-size: 32px;
 }
-#about3 .about3-container p {
+#about3 .about3-container .content p {
   line-height: 26px;
 }
-#about3 .about3-container p:last-child {
+#about3 .about3-container .content p:last-child {
   margin-bottom: 0;
 }
-#about3 .about3-container .icon-box {
+#about3 .about3-container .content .icon-box {
   background: white;
   background-size: cover;
   padding: 0 0 30px 0;
 }
-#about3 .about3-container .icon-box .icon {
+#about3 .about3-container .content .icon-box .icon {
   float: left;
   background: #fff;
   width: 64px;
@@ -638,31 +675,32 @@ body h6 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   text-align: center;
   border-radius: 50%;
   border: 2px solid #007bff;
   transition: all 0.3s ease-in-out;
 }
-#about3 .about3-container .icon-box .icon i {
+#about3 .about3-container .content .icon-box .icon i {
   color: #007bff;
   font-size: 24px;
 }
-#about3 .about3-container .icon-box:hover .icon {
+#about3 .about3-container .content .icon-box:hover .icon {
   background: #007bff;
 }
-#about3 .about3-container .icon-box:hover .icon i {
+#about3 .about3-container .content .icon-box:hover .icon i {
   color: #fff;
 }
-#about3 .about3-container .icon-box .title {
+#about3 .about3-container .content .icon-box .title {
   margin-left: 80px;
   font-weight: 600;
   margin-bottom: 5px;
   font-size: 18px;
 }
-#about3 .about3-container .icon-box .title a {
+#about3 .about3-container .content .icon-box .title a {
   color: #333;
 }
-#about3 .about3-container .icon-box .description {
+#about3 .about3-container .content .icon-box .description {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
@@ -675,8 +713,6 @@ body h6 {
   font-size: 24px;
 }
 
-/* Termina Portfolio.html
---------------------------------*/
 .boton1 {
   cursor: pointer;
   margin-top: 20px;
@@ -778,24 +814,28 @@ body h6 {
   padding: 60px 0;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
-#portfolio3 #cargo3 {
+
+#cargo3 {
   color: black;
   font-size: 16px;
   margin-bottom: 2px;
   margin-top: 8px;
 }
-#portfolio3 #parrafo3 {
+
+#parrafo3 {
   color: black;
   font-size: 13px;
   margin-bottom: 0px;
   margin-top: 0px;
 }
-#portfolio3 .portfolio-grid-container {
+
+.portfolio-grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
 }
-#portfolio3 .portfolio3-wrap img {
+
+.portfolio3-wrap img {
   max-width: 100%;
   height: auto;
 }

@@ -128,34 +128,66 @@
   
   /* Empieza Portfolio.html
 --------------------------------*/
-#about3 {
+#about3 i {
   color: #ff009a;
   margin-right: 8px;
   margin-left: 8px;
   cursor: pointer;
+}
 
-  i {
-    color: #ff009a;
-    margin-right: 8px;
-    margin-left: 8px;
-    cursor: pointer;
-  }
+h5 {
+  margin-top: 20px;
+  color: white;
+  background-color: #ff009a;
+  font-family: Montserrat;
+  font-size: 35px;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  width: 100%;
+}
 
-  #hola {
-    margin-top: 55px;
-  }
+#about3 #hola {
+  margin-top: 55px;
+}
 
-  .container {
-    margin-top: 5px;
-  }
+#about3 .container {
+  margin-top: 5px;
+}
 
-  img {
-    width: 100%;
-    display: block;
-    margin: auto;
-    padding: auto;
-  }
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
 
+.carousel-inner {
+  margin-top: 0px;
+}
+
+.titulodestacado {
+  font-weight: bold;
+  display: inline;
+}
+
+.titulonormal {
+  display: inline;
+}
+
+#about3 img {
+  width: 100%;
+  display: block;
+  margin: auto;
+  padding: auto;
+}
+
+#about3 .container {
+  width: 100%;
+}
+
+#about3 {
   background: white;
   padding: 60px 0;
 
@@ -166,70 +198,71 @@
 
     .content {
       background: white;
-    }
-
-    .title {
-      color: #333;
-      font-weight: 700;
-      font-size: 32px;
-    }
-
-    p {
-      line-height: 26px;
-
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
-
-    .icon-box {
-      background: white;
-      background-size: cover;
-      padding: 0 0 30px 0;
-
-      .icon {
-        float: left;
-        background: #fff;
-        width: 64px;
-        height: 64px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        border-radius: 50%;
-        border: 2px solid #007bff;
-        transition: all 0.3s ease-in-out;
-
-        i {
-          color: #007bff;
-          font-size: 24px;
-        }
-      }
-
-      &:hover {
-        .icon {
-          background: #007bff;
-          i {
-            color: #fff;
-          }
-        }
-      }
 
       .title {
-        margin-left: 80px;
-        font-weight: 600;
-        margin-bottom: 5px;
-        font-size: 18px;
+        color: #333;
+        font-weight: 700;
+        font-size: 32px;
+      }
 
-        a {
-          color: #333;
+      p {
+        line-height: 26px;
+
+        &:last-child {
+          margin-bottom: 0;
         }
       }
 
-      .description {
-        margin-left: 80px;
-        line-height: 24px;
-        font-size: 14px;
+      .icon-box {
+        background: white;
+        background-size: cover;
+        padding: 0 0 30px 0;
+
+        .icon {
+          float: left;
+          background: #fff;
+          width: 64px;
+          height: 64px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          text-align: center;
+          border-radius: 50%;
+          border: 2px solid #007bff;
+          transition: all 0.3s ease-in-out;
+
+          i {
+            color: #007bff;
+            font-size: 24px;
+          }
+        }
+
+        &:hover {
+          .icon {
+            background: #007bff;
+            i {
+              color: #fff;
+            }
+          }
+        }
+
+        .title {
+          margin-left: 80px;
+          font-weight: 600;
+          margin-bottom: 5px;
+          font-size: 18px;
+
+          a {
+            color: #333;
+          }
+        }
+
+        .description {
+          margin-left: 80px;
+          line-height: 24px;
+          font-size: 14px;
+        }
       }
     }
   }
@@ -244,5 +277,3 @@
   }
 }
 
-/* Termina Portfolio.html
---------------------------------*/
