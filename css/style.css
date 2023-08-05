@@ -840,17 +840,18 @@ h5 {
   height: auto;
 }
 
-#novedades {
+/* Empieza Inspiracion */
+#inspiracion {
   padding: 60px 0;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
-#novedades #novedades-flters {
+#inspiracion #inspiracion-flters {
   padding: 0;
   margin: 5px 0 35px 0;
   list-style: none;
   text-align: center;
 }
-#novedades #novedades-flters li {
+#inspiracion #inspiracion-flters li {
   cursor: pointer;
   margin: 15px 15px 15px 0;
   display: inline-block;
@@ -864,29 +865,29 @@ h5 {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
-#novedades #novedades-flters li:hover, #novedades #novedades-flters li.filter-active {
+#inspiracion #inspiracion-flters li:hover, #inspiracion #inspiracion-flters li.filter-active {
   background: #007bff;
   color: #fff;
 }
-#novedades #novedades-flters li:last-child {
+#inspiracion #inspiracion-flters li:last-child {
   margin-right: 0;
 }
-#novedades .novedades-item {
+#inspiracion .inspiracion-item {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
 }
-#novedades .novedades-item .novedades-wrap {
+#inspiracion .inspiracion-item .inspiracion-wrap {
   overflow: hidden;
   position: relative;
   border-radius: 6px;
   margin: 0;
 }
-#novedades .novedades-item .novedades-wrap:hover img {
+#inspiracion .inspiracion-item .inspiracion-wrap:hover img {
   opacity: 0.4;
   transition: 0.3s;
 }
-#novedades .novedades-item .novedades-wrap .novedades-info {
+#inspiracion .inspiracion-item .inspiracion-wrap .inspiracion-info {
   position: absolute;
   top: 0;
   right: 0;
@@ -900,19 +901,19 @@ h5 {
   opacity: 0;
   transition: 0.2s linear;
 }
-#novedades .novedades-item .novedades-wrap .novedades-info h4 {
+#inspiracion .inspiracion-item .inspiracion-wrap .inspiracion-info h4 {
   font-size: 22px;
   line-height: 1;
   font-weight: 700;
   margin-bottom: 14px;
 }
-#novedades .novedades-item .novedades-wrap .novedades-info h4 a {
+#inspiracion .inspiracion-item .inspiracion-wrap .inspiracion-info h4 a {
   color: #fff;
 }
-#novedades .novedades-item .novedades-wrap .novedades-info h4 a:hover {
+#inspiracion .inspiracion-item .inspiracion-wrap .inspiracion-info h4 a:hover {
   color: #007bff;
 }
-#novedades .novedades-item .novedades-wrap .novedades-info p {
+#inspiracion .inspiracion-item .inspiracion-wrap .inspiracion-info p {
   padding: 0;
   margin: 0;
   color: #e2effe;
@@ -920,8 +921,8 @@ h5 {
   font-size: 14px;
   text-transform: uppercase;
 }
-#novedades .novedades-item .novedades-wrap .novedades-info .link-preview,
-#novedades .novedades-item .novedades-wrap .novedades-info .link-details {
+#inspiracion .inspiracion-item .inspiracion-wrap .inspiracion-info .link-preview,
+#inspiracion .inspiracion-item .inspiracion-wrap .inspiracion-info .link-details {
   display: inline-block;
   line-height: 1;
   text-align: center;
@@ -931,24 +932,24 @@ h5 {
   border-radius: 50%;
   margin: 10px 4px 0 4px;
 }
-#novedades .novedades-item .novedades-wrap .novedades-info .link-preview i,
-#novedades .novedades-item .novedades-wrap .novedades-info .link-details i {
+#inspiracion .inspiracion-item .inspiracion-wrap .inspiracion-info .link-preview i,
+#inspiracion .inspiracion-item .inspiracion-wrap .inspiracion-info .link-details i {
   padding-top: 6px;
   font-size: 22px;
   color: #fff;
 }
-#novedades .novedades-item .novedades-wrap .novedades-info .link-preview:hover,
-#novedades .novedades-item .novedades-wrap .novedades-info .link-details:hover {
+#inspiracion .inspiracion-item .inspiracion-wrap .inspiracion-info .link-preview:hover,
+#inspiracion .inspiracion-item .inspiracion-wrap .inspiracion-info .link-details:hover {
   background: #3395ff;
 }
-#novedades .novedades-item .novedades-wrap .novedades-info .link-preview:hover i,
-#novedades .novedades-item .novedades-wrap .novedades-info .link-details:hover i {
+#inspiracion .inspiracion-item .inspiracion-wrap .inspiracion-info .link-preview:hover i,
+#inspiracion .inspiracion-item .inspiracion-wrap .inspiracion-info .link-details:hover i {
   color: #fff;
 }
-#novedades .novedades-item:hover {
+#inspiracion .inspiracion-item:hover {
   background: #616161;
 }
-#novedades .novedades-item:hover .novedades-info {
+#inspiracion .inspiracion-item:hover .inspiracion-info {
   opacity: 1;
 }
 
@@ -984,20 +985,22 @@ h5 {
   width: 100%;
 }
 
-/* Styles for Portfolio.html */
+#portfolio4 .container {
+  margin-top: 55px;
+}
+
 #portfolio4 {
   padding: 60px 0;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
-#portfolio4 .container {
-  margin-top: 55px;
-}
+
 #portfolio4 #portfolio4-flters {
   padding: 0;
   margin: 5px 0 35px 0;
   list-style: none;
   text-align: center;
 }
+
 #portfolio4 #portfolio4-flters li {
   cursor: pointer;
   margin: 15px 15px 15px 0;
@@ -1012,41 +1015,63 @@ h5 {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
-#portfolio4 #portfolio4-flters li:hover, #portfolio4 #portfolio4-flters li.filter-active {
+
+#portfolio4 #portfolio4-flters li:hover,
+#portfolio4 #portfolio4-flters li.filter-active {
   background: #007bff;
   color: #fff;
 }
+
 #portfolio4 #portfolio4-flters li:last-child {
   margin-right: 0;
 }
+
 #portfolio4 .portfolio4-item {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
 }
+
 #portfolio4 .portfolio4-item .portfolio4-wrap {
   overflow: hidden;
   position: relative;
   border-radius: 6px;
   margin: 0;
 }
+
 #portfolio4 .portfolio4-item .portfolio4-wrap:hover img {
   opacity: 0.4;
   transition: 0.3s;
 }
+
 #portfolio4 .portfolio4-item .portfolio4-wrap .portfolio4-info {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   text-align: center;
   opacity: 0;
   transition: 0.2s linear;
 }
+
 #portfolio4 .portfolio4-item .portfolio4-wrap .portfolio4-info h4 {
   font-size: 22px;
   line-height: 1px;
@@ -1054,12 +1079,15 @@ h5 {
   margin-bottom: 14px;
   padding-bottom: 0;
 }
+
 #portfolio4 .portfolio4-item .portfolio4-wrap .portfolio4-info h4 a {
   color: #fff;
 }
+
 #portfolio4 .portfolio4-item .portfolio4-wrap .portfolio4-info h4 a:hover {
   color: #007bff;
 }
+
 #portfolio4 .portfolio4-item .portfolio4-wrap .portfolio4-info p {
   padding: 0;
   margin: 0;
@@ -1068,6 +1096,7 @@ h5 {
   font-size: 14px;
   text-transform: uppercase;
 }
+
 #portfolio4 .portfolio4-item .portfolio4-wrap .portfolio4-info .link-preview,
 #portfolio4 .portfolio4-item .portfolio4-wrap .portfolio4-info .link-details {
   display: inline-block;
@@ -1079,25 +1108,32 @@ h5 {
   border-radius: 50%;
   margin: 10px 4px 0 4px;
 }
+
 #portfolio4 .portfolio4-item .portfolio4-wrap .portfolio4-info .link-preview i,
 #portfolio4 .portfolio4-item .portfolio4-wrap .portfolio4-info .link-details i {
   padding-top: 6px;
   font-size: 22px;
   color: #fff;
 }
+
 #portfolio4 .portfolio4-item .portfolio4-wrap .portfolio4-info .link-preview:hover,
 #portfolio4 .portfolio4-item .portfolio4-wrap .portfolio4-info .link-details:hover {
   background: #3395ff;
 }
+
 #portfolio4 .portfolio4-item .portfolio4-wrap .portfolio4-info .link-preview:hover i,
 #portfolio4 .portfolio4-item .portfolio4-wrap .portfolio4-info .link-details:hover i {
   color: #fff;
 }
-#portfolio4 .portfolio4-item:hover .portfolio3-info {
+
+#portfolio4 .portfolio4-item .portfolio4-wrap:hover {
+  background: #003166;
+}
+
+#portfolio4 .portfolio4-item .portfolio4-wrap:hover .portfolio3-info {
   opacity: 1;
 }
 
-/* Custom styles */
 .sobre {
   font-size: 80px;
   text-transform: lowercase;
@@ -1125,21 +1161,25 @@ h5 {
   margin-top: 0px;
 }
 
-/* Empieza Novedades2.html
+/* Termina Inspiracion David Carson  */
+/* Empieza inspiracionisidro.html
 --------------------------------*/
+#isidro .container {
+  margin-top: 55px;
+}
+
 #isidro {
   padding: 60px 0;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
-#isidro .container {
-  margin-top: 55px;
-}
+
 #isidro #isidro-flters {
   padding: 0;
   margin: 5px 0 35px 0;
   list-style: none;
   text-align: center;
 }
+
 #isidro #isidro-flters li {
   cursor: pointer;
   margin: 15px 15px 15px 0;
@@ -1154,41 +1194,63 @@ h5 {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
-#isidro #isidro-flters li:hover, #isidro #isidro-flters li.filter-active {
+
+#isidro #isidro-flters li:hover,
+#isidro #isidro-flters li.filter-active {
   background: #007bff;
   color: #fff;
 }
+
 #isidro #isidro-flters li:last-child {
   margin-right: 0;
 }
+
 #isidro .isidro-item {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
 }
+
 #isidro .isidro-item .isidro-wrap {
   overflow: hidden;
   position: relative;
   border-radius: 6px;
   margin: 0;
 }
+
 #isidro .isidro-item .isidro-wrap:hover img {
   opacity: 0.4;
   transition: 0.3s;
 }
+
 #isidro .isidro-item .isidro-wrap .isidro-info {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   text-align: center;
   opacity: 0;
   transition: 0.2s linear;
 }
+
 #isidro .isidro-item .isidro-wrap .isidro-info h4 {
   font-size: 22px;
   line-height: 1px;
@@ -1196,12 +1258,15 @@ h5 {
   margin-bottom: 14px;
   padding-bottom: 0;
 }
+
 #isidro .isidro-item .isidro-wrap .isidro-info h4 a {
   color: #fff;
 }
+
 #isidro .isidro-item .isidro-wrap .isidro-info h4 a:hover {
   color: #007bff;
 }
+
 #isidro .isidro-item .isidro-wrap .isidro-info p {
   padding: 0;
   margin: 0;
@@ -1210,6 +1275,7 @@ h5 {
   font-size: 14px;
   text-transform: uppercase;
 }
+
 #isidro .isidro-item .isidro-wrap .isidro-info .link-preview,
 #isidro .isidro-item .isidro-wrap .isidro-info .link-details {
   display: inline-block;
@@ -1221,25 +1287,32 @@ h5 {
   border-radius: 50%;
   margin: 10px 4px 0 4px;
 }
+
 #isidro .isidro-item .isidro-wrap .isidro-info .link-preview i,
 #isidro .isidro-item .isidro-wrap .isidro-info .link-details i {
   padding-top: 6px;
   font-size: 22px;
   color: #fff;
 }
+
 #isidro .isidro-item .isidro-wrap .isidro-info .link-preview:hover,
 #isidro .isidro-item .isidro-wrap .isidro-info .link-details:hover {
   background: #3395ff;
 }
+
 #isidro .isidro-item .isidro-wrap .isidro-info .link-preview:hover i,
 #isidro .isidro-item .isidro-wrap .isidro-info .link-details:hover i {
   color: #fff;
 }
-#isidro .isidro-item:hover .isidro-info {
+
+#isidro .isidro-item .isidro-wrap:hover {
+  background: #003166;
+}
+
+#isidro .isidro-item .isidro-wrap:hover .isidro-info {
   opacity: 1;
 }
 
-/* Estilos personalizados */
 .sobre {
   font-size: 80px;
   text-transform: lowercase;
@@ -1267,7 +1340,7 @@ h5 {
   margin-top: 0px;
 }
 
-/* Termina Novedades2.html
+/* Termina inspiracionisidro.html
 --------------------------------*/
 .fuccia {
   background-color: #1c1c1c;
